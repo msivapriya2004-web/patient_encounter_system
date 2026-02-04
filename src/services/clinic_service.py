@@ -42,7 +42,8 @@ def create_appointment(db: Session, obj_in):
 """
 
 from datetime import timedelta, timezone
-from sqlalchemy import or_
+
+# from sqlalchemy import or_
 from src.models import models
 
 
